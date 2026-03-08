@@ -1,7 +1,7 @@
 /* estilos básicos para el juego */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: #f0e5d8; /* pastel beige */
     margin: 0;
     padding: 0;
     display: flex;
@@ -14,14 +14,15 @@ body {
     width: 90%;
     max-width: 600px;
     margin: 2rem auto;
-    background: #fff;
+    background: #fffaf0; /* very light pastel */
     padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 h1 {
     text-align: center;
     margin-bottom: 1.5rem;
+    color: #a374af; /* pastel purple */
 }
 nav {
     display: flex;
@@ -31,15 +32,15 @@ nav {
 button {
     padding: 0.6rem 1.2rem;
     border: none;
-    border-radius: 4px;
-    background-color: #4a90e2;
-    color: white;
+    border-radius: 6px;
+    background-color: #ffd1dc; /* pastel pink */
+    color: #5a3e36;
     cursor: pointer;
     font-size: 1rem;
     transition: background 0.2s;
 }
 button:hover {
-    background-color: #357ab8;
+    background-color: #ffb3c1; /* darker pastel pink */
 }
 #pantalla {
     min-height: 200px;
@@ -50,6 +51,8 @@ input[type="number"], select {
     width: 100%;
     box-sizing: border-box;
     margin-bottom: 1rem;
+    border: 2px solid #cdc0ff; /* pastel lilac */
+    border-radius: 4px;
 }
 .stats-table {
     width: 100%;
@@ -66,4 +69,5 @@ input[type="number"], select {
 .message {
     margin: 1rem 0;
     font-weight: bold;
+    color: #4a4a4a;
 }
